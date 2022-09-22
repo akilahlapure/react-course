@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #282D35;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar Styling */
+
+nav {
+    background-color: #21222A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 26px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 28.93px;
+    height: 28.93px;
+}
+
+.logo-title {
+    color: #61DAFB;
+    font-size: 22.25px;
+    margin-left: 4px;
+}
+
+.project-name {
+    color: #DEEBF8;
+    font-size: 16px;
+}
+
+/* Main Content Styling */
+
+main {
+    color: #FFFFFF;
+    padding-inline: 26px;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+}
+
+ul {
+    line-height: 2.5rem;
+}
+
+li::before {
+    content: "•"; 
+    color: #61DAFB;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
