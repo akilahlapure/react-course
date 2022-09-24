@@ -22,6 +22,19 @@ html[data-theme='dark'] {
 }
 
 /******** Utility Classes ********/
+#about, #interests {
+  padding-inline: 35px;
+}
+
+#about .content-heading, #interests .content-heading {
+  font-size: 16px;
+}
+
+#about .content, #interests .content {
+  font-size: 10.25px;
+  line-height: 150%;
+}
+
 /******** Reset Styling ********/
 * {
   -webkit-box-sizing: border-box;
@@ -132,5 +145,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #info .buttons .btn-linkedin .btn-icon {
   margin-right: 8px;
+}
+
+#about {
+  padding-top: 24px;
+}
+
+#interests {
+  padding-top: 18px;
+  padding-bottom: 24px;
 }
 /*# sourceMappingURL=main.css.map */

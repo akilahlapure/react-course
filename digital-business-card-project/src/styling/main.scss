@@ -24,6 +24,19 @@
     }
 }
 
+%content {
+    padding-inline: 35px;
+
+    .content-heading {
+        font-size: 16px;
+    }
+
+    .content {
+        font-size: 10.25px;
+        line-height: 150%;
+    }
+}
+
 /******** Reset Styling ********/
 
 * {
@@ -85,4 +98,15 @@ h1, h2, h3, h4, h5, h6 {
             @include btn-styling(var(--btn-li), $social-linkedin, none);
         }
     }
+}
+
+#about {
+    @extend %content;
+    padding-top: 24px;
+}
+
+#interests {
+    @extend %content;
+    padding-top: 18px;
+    padding-bottom: 24px;
 }
