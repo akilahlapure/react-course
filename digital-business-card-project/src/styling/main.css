@@ -27,12 +27,15 @@ html[data-theme='dark'] {
 }
 
 #about .content-heading, #interests .content-heading {
+  color: var(--sub-heading);
   font-size: 16px;
 }
 
 #about .content, #interests .content {
+  color: var(--text);
   font-size: 10.25px;
   line-height: 150%;
+  text-align: justify;
 }
 
 /******** Reset Styling ********/
@@ -51,6 +54,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
+}
+
+#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card {
@@ -126,6 +138,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 8px;
 }
 
+#info .buttons .btn-email:hover {
+  background-color: #5C5C5C;
+  border: 1px solid #5C5C5C;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
 #info .buttons .btn-linkedin {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,6 +166,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 8px;
 }
 
+#info .buttons .btn-linkedin:hover {
+  background-color: #0B386C;
+  border: 1px solid #0B386C;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
 #about {
   padding-top: 24px;
 }
@@ -154,5 +180,27 @@ h1, h2, h3, h4, h5, h6 {
 #interests {
   padding-top: 18px;
   padding-bottom: 24px;
+}
+
+footer {
+  background-color: var(--footer-bg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-block: 19.5px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+footer .social-icon {
+  color: #918E9B;
+  font-size: 25px;
+}
+
+footer .social-icon:hover {
+  color: #F47D27;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
