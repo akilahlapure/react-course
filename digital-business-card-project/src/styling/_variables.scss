@@ -9,7 +9,7 @@ $bold: 700;
 // Colors
 $social-footer: #918E9B;
 $social-email: #1E1F26;
-$social-email-text: #374151;
+$social-linkedin: #FFFFFF;
 $body: #23252C;
 
 // Theme variables
@@ -19,6 +19,7 @@ html {
     --heading: #2B283A;
     --sub-heading: #2B283A;
     --text: #4A4E74;
+    --btn-email: #FFFFFF;
     --btn-li: #297FE5;
     --title: #F47D27;
 }
@@ -29,6 +30,7 @@ html[data-theme='dark'] {
     --heading: #FFFFFF;
     --sub-heading: #F5F5F5;
     --text: #DCDCDC;
+    --btn-email: #FFFFFF;
     --btn-li: #5093E2;
     --title: #F3BF99;
 }
