@@ -42,6 +42,9 @@ nav {
 /* Main Content Styling */
 
 main {
+    background-image: url(assets/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right;
     color: #FFFFFF;
     padding-inline: 26px;
 }
@@ -54,13 +57,15 @@ main {
 }
 
 ul {
-    line-height: 2.5rem;
+    /* line-height: 2.5rem; */
+    max-width: 450px;
 }
 
-li::before {
-    content: "•"; 
+li {
+    margin-top: 12px;
+}
+
+li::marker {
     color: #61DAFB;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em
+    font-size: 1.4rem;
 }
