@@ -1,5 +1,88 @@
 @import "variables";
 
+/******** Utility Classes ********/
+@mixin info-text($color, $size) {
+    color: $color;
+    font-size: $size;
+}
+
+@mixin btn-styling($bg-color, $text-color, $border) {
+    display: flex;
+    justify-content: center;
+    padding: 9px 12px;
+    width: 115px;
+
+    background-color: $bg-color;
+    border: $border;
+    border-radius: 6px;
+    color: $text-color;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+
+    .btn-icon {
+        margin-right: 8px;
+    }
+}
+
+/******** Reset Styling ********/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/********** Styling **********/
+
 body {
     background-color: $body;
+    font-family: $font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $bold;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    width: 316px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+    }
+
+    .info-details{
+        text-align: center;
+        padding-block: 1.25rem;
+
+        .name { @include info-text(var(--heading), 25px); }
+
+        .title { @include info-text(var(--title), 13px); }
+
+        .site { 
+            @include info-text(var(--text), 10.25px);
+            padding-top: 8px;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        gap: 8px;
+
+        .btn-email {
+            @include btn-styling(var(--btn-email), $social-email, 1px solid #D1D5DB);
+        }
+
+        .btn-linkedin {
+            @include btn-styling(var(--btn-li), $social-linkedin, none);
+        }
+    }
 }

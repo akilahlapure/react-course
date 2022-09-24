@@ -5,6 +5,7 @@ html {
   --heading: #2B283A;
   --sub-heading: #2B283A;
   --text: #4A4E74;
+  --btn-email: #FFFFFF;
   --btn-li: #297FE5;
   --title: #F47D27;
 }
@@ -15,11 +16,121 @@ html[data-theme='dark'] {
   --heading: #FFFFFF;
   --sub-heading: #F5F5F5;
   --text: #DCDCDC;
+  --btn-email: #FFFFFF;
   --btn-li: #5093E2;
   --title: #F3BF99;
 }
 
+/******** Utility Classes ********/
+/******** Reset Styling ********/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/********** Styling **********/
 body {
   background-color: #23252C;
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  width: 316px;
+}
+
+#info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#info img {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+}
+
+#info .info-details {
+  text-align: center;
+  padding-block: 1.25rem;
+}
+
+#info .info-details .name {
+  color: var(--heading);
+  font-size: 25px;
+}
+
+#info .info-details .title {
+  color: var(--title);
+  font-size: 13px;
+}
+
+#info .info-details .site {
+  color: var(--text);
+  font-size: 10.25px;
+  padding-top: 8px;
+}
+
+#info .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+
+#info .buttons .btn-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 9px 12px;
+  width: 115px;
+  background-color: var(--btn-email);
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  color: #1E1F26;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#info .buttons .btn-email .btn-icon {
+  margin-right: 8px;
+}
+
+#info .buttons .btn-linkedin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 9px 12px;
+  width: 115px;
+  background-color: var(--btn-li);
+  border: none;
+  border-radius: 6px;
+  color: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#info .buttons .btn-linkedin .btn-icon {
+  margin-right: 8px;
 }
 /*# sourceMappingURL=main.css.map */
