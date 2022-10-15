@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/******** Reset Styling ********/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/******** Main Styling ********/
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  padding: 16px;
+  -webkit-box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+nav img {
+  height: 25px;
+}
+
+header {
+  padding: 20px;
+}
+
+header .hero-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .hero-img img {
+  width: 75%;
+}
+
+header .hero-text {
+  padding-block: 20px;
+}
+
+header .hero-text h1 {
+  font-size: 36px;
+}
+
+header .hero-text p {
+  font-weight: 300;
+  width: 75%;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+}
+
+article {
+  margin-block: 20px;
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+article .card-img-container {
+  position: relative;
+}
+
+article .card-img-container .card-img {
+  width: 175px;
+  border-radius: 9px;
+}
+
+article .card-img-container .card-tag {
+  background-color: #FFF;
+  border-radius: 2px;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  padding: 5px;
+  margin: 10px;
+}
+
+article .card-desc-container .desc-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2px;
+  margin-bottom: 4px;
+}
+
+article .card-desc-container .desc-rating .rating-icon {
+  height: 14px;
+}
+
+article .card-desc-container .desc-rating .rating-people {
+  color: #918E9B;
+}
+
+article .card-desc-container .title {
+  margin-bottom: 4px;
+}
+/*# sourceMappingURL=main.css.map */

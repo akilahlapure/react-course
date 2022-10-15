@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/******** Reset Styling ********/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/******** Main Styling ********/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    padding: 16px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+    img {
+        height: 25px;
+    }
+}
+
+header {
+    padding: 20px;
+
+    .hero-img {
+        display: flex;
+        justify-content: center;
+
+        img { width: 75%; }
+
+    }
+
+    .hero-text {
+        padding-block: 20px;
+
+        h1 { font-size: 36px; }
+
+        p {
+            font-weight: 300;
+            width: 75%;
+        }
+    }
+}
+
+main {
+    display: flex;
+    overflow-x: auto;
+}
+
+article {
+    margin-block: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+
+    .card-img-container {
+        position: relative;
+
+        .card-img {
+            width: 175px;
+            border-radius: 9px;
+        }
+
+        .card-tag {
+            background-color: #FFF;
+            border-radius: 2px;
+            font-size: 10px;
+            position: absolute;
+            top: 0;
+            padding: 5px;
+            margin: 10px;
+        }
+    }
+
+    .card-desc-container {
+
+        .desc-rating {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            margin-bottom: 4px;
+
+            .rating-icon {
+                height: 14px;
+            }
+            
+            .rating-people {
+                color: #918E9B;
+            }
+        }
+        
+        .title {
+            margin-bottom: 4px;
+        }
+        
+    }
+}
+
+
+
