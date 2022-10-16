@@ -7,6 +7,7 @@ This repository is for the projects I've done in the [Scrimba React Course](http
 1. [React Info Site](#react-info-site) 
 2. [Digital Business Card](#digital-business-card) 
 3. [Air Bnb Experiences Clone](#air-bnb-experiences-clone)
+4. [Travel Journal](#travel-journal)
 
 ### React Info Site
 ![](first-react-project/finished.png)
@@ -18,3 +19,7 @@ This repository is for the projects I've done in the [Scrimba React Course](http
 ### Air Bnb Experiences Clone
 ![](air-bnb-exp-clone/finished.png)
 - [Live URL](https://byooki-airbnb-experiences-clone.netlify.app/)
+
+### Travel Journal
+![](travel-journal/finished.png)
+- [Live URL](https://byooki-travel-journal.netlify.app/)
