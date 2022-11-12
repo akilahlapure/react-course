@@ -39,12 +39,13 @@ header {
     }
 }
 
-section {
+main {
     padding: 20px;
 
     .form {
         display: flex;
         flex-direction: column;
+        margin-bottom: 30px;
 
         .input-text {
             display: flex;
@@ -69,5 +70,10 @@ section {
             font-weight: 700;
         }
 
+    }
+
+    .meme-image img {
+        width: 100%;
+        border-radius: 5px;
     }
 }

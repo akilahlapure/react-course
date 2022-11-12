@@ -51,11 +51,11 @@ header .header--project-no p {
   line-height: 15px;
 }
 
-section {
+main {
   padding: 20px;
 }
 
-section .form {
+main .form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,9 +63,10 @@ section .form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 30px;
 }
 
-section .form .input-text {
+main .form .input-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,7 +74,7 @@ section .form .input-text {
   margin-bottom: 15px;
 }
 
-section .form .input-text input {
+main .form .input-text input {
   border: 1px solid #D5D4D8;
   border-radius: 5px;
   font-family: "Karla", sans-serif;
@@ -81,12 +82,17 @@ section .form .input-text input {
   width: 50%;
 }
 
-section .form .input-submit {
+main .form .input-submit {
   background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
   border: none;
   border-radius: 5px;
   color: #FFF;
   font-family: "Karla", sans-serif;
   font-weight: 700;
+}
+
+main .meme-image img {
+  width: 100%;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */
